@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #393024;
+}
+
+.card{
+    transition: 500ms;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    
+}
+
+.banner{
+    width: 100%;
+    height: 65vh;
+    background-image: url(Img/Banner.jpeg);
+    background-size: cover;
+    background-position: 69%;
+
+}
+.banner-texto{
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+.banner-texto h1{
+    margin-left: 5px;
+    font-size: 100px;
+    color: rgb(255, 230, 0);
+}
+
+.banner-texto h2{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+#btn{
+    width: 150px;
+    height: 45px;
+    font-weight: bold;
+    background-color: #393024;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: yellow;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 500ms;
+    
+}
+
+#btn:hover{
+    background-color: #29221a;
+}
+
+
+
+#btn a{
+    text-decoration: none;
+    color: yellow;
+    
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(Img/fondo.jpg);
+    background-size: 100%;
+
+}
+
