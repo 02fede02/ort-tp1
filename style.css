@@ -45,6 +45,18 @@
     
 }
 
+.col h5 {
+    font-size: 2.2rem;
+}
+
+.col p {
+    font-size: 1.25rem;
+}
+
+.col b {
+    font-size: 1.25rem;
+}
+
 #btn{
     width: 220px;
     padding: 12px 15px;
@@ -82,3 +94,6 @@
 
 }
 
+/* form label {
+    font-size: ;
+} */
