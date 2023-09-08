@@ -47,17 +47,17 @@
 
             <div class="mb-3">
                 <label for="exampleInputPhone" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="exampleInputPhone" placeholder="xx xxxx-xxxx" pattern="[0-9]{2}[0-9]{4}[0-9]{4}" required maxlength="10">
+                <input type="tel" class="form-control" id="exampleInputPhone" placeholder="99-9999-9999" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required >
               </div>
 
             <div class="mb-3">
                 <label for="exampleInputEmail" class="form-label">Mail</label>
                 <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"placeholder="example@gmail.com" required maxlength="30">
               </div>
-
+<!-- TODO corregir los atributos del select y options -->
             <div class="mb-3">
                 <label for="cars">En qué sucursal queres contactar:</label>
-                <select id="cars" name="cars">
+                <select id="cars" name="cars" required>
                   <option value="volvo">Villa Crespo</option>
                   <option value="saab">Paternal</option>
                   <option value="fiat">Flores</option>
@@ -71,7 +71,7 @@
               </div>
 
               <div class="mb-3">
-                <input type="checkbox" id="suscripcion" name="suscripcion" value="Sucribo">
+                <input type="checkbox" id="suscripcion" name="suscripcion" value="suscribo">
                 <label for="suscripcion">Deseo suscribirme a Lo de Leo</label><br>
             </div>
 
