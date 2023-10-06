@@ -37,17 +37,19 @@
             <h2 style="text-align: center; padding: 2rem 0;">Contacta con nosotros</h2>
             <div class="mb-3">
               <label for="exampleInputName" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Ingresa tu nombre" required maxlength="30">
+              <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Ingresa tu nombre"  maxlength="30" required>
             </div>
 
             <div class="mb-3">
               <label for="exampleInputLastName" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="exampleInputLastName" placeholder="Ingresa tu apellido" maxlength="30">
+              <input type="text" class="form-control" id="exampleInputLastName" placeholder="Ingresa tu apellido" maxlength="30" required>
             </div>
 
             <div class="mb-3">
                 <label for="exampleInputPhone" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="exampleInputPhone" placeholder="99-9999-9999" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required >
+                <input type="tel" class="form-control" id="exampleInputPhone" placeholder="99-9999-9999"
+                  
+                 >
               </div>
 
             <div class="mb-3">
@@ -75,7 +77,7 @@
                 <label for="suscripcion">Deseo suscribirme a Lo de Leo</label><br>
             </div>
 
-            <button type="submit" class="btn btn-primary" onclick="alert('Gracias por contactar')">Contactar</button>
+            <button type="button" id="contactar" class="btn btn-primary">Contactar</button>
           </form>
 
     </section>
@@ -155,5 +157,6 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
+    <script src="./script.js"></script>
   </body>
 </html>
